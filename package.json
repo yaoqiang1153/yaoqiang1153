@@ -1,0 +1,23 @@
+{
+  "name": "stream-chat-token-api",
+  "version": "1.0.0",
+  "description": "API to generate Stream Chat tokens",
+  "main": "api/get_token.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stream-chat": "^8.12.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "keywords": [
+    "stream-chat",
+    "api",
+    "token"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
